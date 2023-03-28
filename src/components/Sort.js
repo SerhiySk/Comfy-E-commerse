@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Sort = () => {
   const {
     sort,
-    allProducts: products,
+    filteredProducts: products,
     gridView,
     setGridView,
     setListView,

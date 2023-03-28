@@ -33,7 +33,7 @@ const CartButtons = () => {
           <FaUserMinus />
         </button>
       ) : (
-        <button className="auth-btn" onClick={() => loginWithRedirect()}>
+        <button className="auth-btn" onClick={loginWithRedirect}>
           Login
           <FaUserPlus />
         </button>
